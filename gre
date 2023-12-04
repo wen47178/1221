@@ -24,33 +24,21 @@ proxies:
   - {name: '🇭🇰 香港07', type: ss, server: zzhk03.51tu.pro, port: 29807, cipher: chacha20-ietf-poly1305, password: db866e9d-261b-4868-98d6-29a3104420eb, udp: true }
   - {name: '🇭🇰 香港08', type: ss, server: zzhk03.51tu.pro, port: 29818, cipher: chacha20-ietf-poly1305, password: db866e9d-261b-4868-98d6-29a3104420eb, udp: true }
   - {name: '🇭🇰 香港09', type: ss, server: zzhk04.51tu.pro, port: 29809, cipher: chacha20-ietf-poly1305, password: db866e9d-261b-4868-98d6-29a3104420eb, udp: true }
-  - {name: 🇹🇷 土耳其1, server: proxy.miyaip.com, port: 10001, type: socks5, username: 1b7b34cbmiyaipb76_g-tr_f-ff6_sid-gzgBqbwwebq_l-30_sc-1, password: 1g7g3ggggg, skip-cert-verify: false}
-  - {name: 🇹🇷 土耳其2, server: proxy.miyaip.com, port: 10001, type: socks5, username: 1b7b34cbmiyaipb76_g-tr_f-ff6_sid-y15ETzOEj0S_l-30_sc-1, password: 1g7g3ggggg, skip-cert-verify: false}
-  - {name: 🇹🇷 土耳其3, server: proxy.miyaip.com, port: 10001, type: socks5, username: 1b7b34cbmiyaipb76_g-tr_f-ff6_sid-yRFgW4XQCUl_l-30_sc-1, password: 1g7g3ggggg, skip-cert-verify: false}
-  - {name: 🇹🇷 土耳其4, server: 18.162.153.157, port: 36570, type: socks5, username: poiu4717, password: 9gHUDSv8OK_country-tr_session-f0tkbv2c, skip-cert-verify: false}
-  - {name: 🇹🇷 土耳其5, server: 18.162.153.157, port: 36570, type: socks5, username: poiu4717, password: 9gHUDSv8OK_country-tr_session-NceBpJOr, skip-cert-verify: false}
-  - {name: 🇹🇷 土耳其6, server: 18.162.153.157, port: 36570, type: socks5, username: poiu4717, password: 9gHUDSv8OK_country-tr_session-cDTWwUdp, skip-cert-verify: false}
-  - {name: 🇹🇷 土耳其7, server: 18.162.153.157, port: 36570, type: socks5, username: poiu4717, password: 9gHUDSv8OK_country-tr_session-kVvFpH5t, skip-cert-verify: false}
-  - {name: 🇹🇷 土耳其8, server: 18.162.153.157, port: 36570, type: socks5, username: poiu4717, password: 9gHUDSv8OK_country-tr_session-Wk4dLrKh, skip-cert-verify: false}
-  - {name: 加纳1, server: 18.162.153.157, port: 36570, type: socks5, username: poiu4717, password: 9gHUDSv8OK_country-gh_session-Q1RSqLdh, skip-cert-verify: false}
-  - {name: 加纳2, server: 18.162.153.157, port: 36570, type: socks5, username: poiu4717, password: 9gHUDSv8OK_country-gh_session-6ukNqVpc, skip-cert-verify: false}
-  - {name: 加纳3, server: 18.162.153.157, port: 36570, type: socks5, username: poiu4717, password: 9gHUDSv8OK_country-gh_session-bHlZNnE4, skip-cert-verify: false}
-  - {name: 加纳4, server: 18.162.153.157, port: 36570, type: socks5, username: poiu4717, password: 9gHUDSv8OK_country-gh_session-kc9HIgDE, skip-cert-verify: false}
-  - {name: 加纳5, server: 18.162.153.157, port: 36570, type: socks5, username: poiu4717, password: 9gHUDSv8OK_country-gh_session-fnAJxcbU, skip-cert-verify: false}
-  - {name: 🇯🇵 尼日利亚1, server: 18.162.153.157, port: 36570, type: socks5, username: poiu4717, password: 9gHUDSv8OK_country-ng_session-E8LO9kuw, skip-cert-verify: false}
-  - {name: 🇯🇵 尼日利亚2, server: 18.162.153.157, port: 36570, type: socks5, username: poiu4717, password: 9gHUDSv8OK_country-ng_session-h4AqS81l, skip-cert-verify: false}
-  - {name: 🇯🇵 尼日利亚3, server: 18.162.153.157, port: 36570, type: socks5, username: poiu4717, password: 9gHUDSv8OK_country-ng_session-7nwYfk5G, skip-cert-verify: false}
-  - {name: 🇯🇵 尼日利亚4, server: 18.162.153.157, port: 36570, type: socks5, username: poiu4717, password: 9gHUDSv8OK_country-ng_session-h5iEGIT8, skip-cert-verify: false}
-  - {name: 🇯🇵 尼日利亚5, server: 18.162.153.157, port: 36570, type: socks5, username: poiu4717, password: 9gHUDSv8OK_country-ng_session-lJrQsoXm, skip-cert-verify: false}
-  - {name: 🇯🇵 尼日利亚6, server: 18.162.153.157, port: 36570, type: socks5, username: poiu4717, password: 9gHUDSv8OK_country-ng_session-9k3wGNCH, skip-cert-verify: false}
-  - {name: 🇯🇵 尼日利亚7, server: 18.162.153.157, port: 36570, type: socks5, username: poiu4717, password: 9gHUDSv8OK_country-ng_session-ULwTCWXB, skip-cert-verify: false}
-  - {name: 🇯🇵 尼日利亚8, server: 18.162.153.157, port: 36570, type: socks5, username: poiu4717, password: 9gHUDSv8OK_country-ng_session-LqpdsOkG, skip-cert-verify: false}
-  - {name: 🇯🇵 尼日利亚9, server: 18.162.153.157, port: 36570, type: socks5, username: poiu4717, password: 9gHUDSv8OK_country-ng_session-oQMIdPk3, skip-cert-verify: false}
-  - {name: 🇯🇵 尼日利亚10, server: 18.162.153.157, port: 36570, type: socks5, username: poiu4717, password: 9gHUDSv8OK_country-ng_session-qCsgYTQ1, skip-cert-verify: false}
-  - {name: 🇯🇵 尼日利亚11, server: 18.162.153.157, port: 21500, type: socks5, username: 1b7b34cbmiyaipb76_g-NG_f-ff15_sid-yio65Uilc5C_l-30_sc-0, password: 1k7g3jkssfe8s, skip-cert-verify: false}
-  - {name: 🇯🇵 尼日利亚12, server: 18.162.153.157, port: 21500, type: socks5, username: 1b7b34cbmiyaipb76_g-NG_f-ff15_sid-ycaPtFm5E33_l-30_sc-0, password: 1k7g3jkssfe8s, skip-cert-verify: false}
-  - {name: 🇯🇵 尼日利亚13, server: 18.162.153.157, port: 21500, type: socks5, username: 1b7b34cbmiyaipb76_g-NG_f-ff15_sid-gnrjgWY0AvH_l-30_sc-0, password: 1k7g3jkssfe8s, skip-cert-verify: false}
-  - {name: 922, server: 192.168.31.93, port: 30000,  type: socks5, skip-cert-verify: false, udp: true}
+  - {name: 🇹🇷 土耳其1, server: 18.162.153.157, port: 18038, type: socks5, username: poiu4717, password: 9gHUDSv8OK_country-tr_session-c1EBtrSg, skip-cert-verify: false}
+  - {name: 🇹🇷 土耳其2, server: 18.162.153.157, port: 18038, type: socks5, username: poiu4717, password: 9gHUDSv8OK_country-tr_session-6M4daj3g, skip-cert-verify: false}
+  - {name: 🇹🇷 土耳其3, server: 18.162.153.157, port: 18038, type: socks5, username: poiu4717, password: 9gHUDSv8OK_country-tr_session-fKoQamCW, skip-cert-verify: false}
+  - {name: 🇹🇷 土耳其4, server: 18.162.153.157, port: 18038, type: socks5, username: poiu4717, password: 9gHUDSv8OK_country-tr_session-mkhreYSL, skip-cert-verify: false}
+  - {name: 🇹🇷 土耳其5, server: 18.162.153.157, port: 18038, type: socks5, username: poiu4717, password: 9gHUDSv8OK_country-tr_session-SkC3J7o9, skip-cert-verify: false}
+  - {name: 加纳1, server: 18.162.153.157, port: 18038, type: socks5, username: poiu4717, password: 9gHUDSv8OK_country-gh_session-ofVTh3uL, skip-cert-verify: false}
+  - {name: 加纳2, server: 18.162.153.157, port: 18038, type: socks5, username: poiu4717, password: 9gHUDSv8OK_country-gh_session-NfCOZyMw, skip-cert-verify: false}
+  - {name: 加纳3, server: 18.162.153.157, port: 18038, type: socks5, username: poiu4717, password: 9gHUDSv8OK_country-gh_session-RYkqEOdi, skip-cert-verify: false}
+  - {name: 加纳4, server: 18.162.153.157, port: 18038, type: socks5, username: poiu4717, password: 9gHUDSv8OK_country-gh_session-l0Js2o9H, skip-cert-verify: false}
+  - {name: 加纳5, server: 18.162.153.157, port: 18038, type: socks5, username: poiu4717, password: 9gHUDSv8OK_country-gh_session-JZaykpSu, skip-cert-verify: false}
+  - {name: 🇯🇵 尼日利亚1, server: 18.162.153.157, port: 18038, type: socks5, username: poiu4717, password: 9gHUDSv8OK_country-ng_session-h1Sm24js, skip-cert-verify: false}
+  - {name: 🇯🇵 尼日利亚2, server: 18.162.153.157, port: 18038, type: socks5, username: poiu4717, password: 9gHUDSv8OK_country-ng_session-dI7RlWAw, skip-cert-verify: false}
+  - {name: 🇯🇵 尼日利亚3, server: 18.162.153.157, port: 18038, type: socks5, username: poiu4717, password: 9gHUDSv8OK_country-ng_session-BiHnmUOj, skip-cert-verify: false}
+  - {name: 🇯🇵 尼日利亚4, server: 18.162.153.157, port: 18038, type: socks5, username: poiu4717, password: 9gHUDSv8OK_country-ng_session-a5D4SL7Z, skip-cert-verify: false}
+  - {name: 🇯🇵 尼日利亚5, server: 18.162.153.157, port: 18038, type: socks5, username: poiu4717, password: 9gHUDSv8OK_country-ng_session-ZvgL6V43, skip-cert-verify: false}
 
 proxy-groups:
   - name: Googleplay
@@ -65,9 +53,6 @@ proxy-groups:
       - 🇹🇷 土耳其3
       - 🇹🇷 土耳其4
       - 🇹🇷 土耳其5
-      - 🇹🇷 土耳其6
-      - 🇹🇷 土耳其7
-      - 🇹🇷 土耳其8
       - 加纳1
       - 加纳2
       - 加纳3
@@ -78,15 +63,7 @@ proxy-groups:
       - 🇯🇵 尼日利亚3
       - 🇯🇵 尼日利亚4
       - 🇯🇵 尼日利亚5
-      - 🇯🇵 尼日利亚6
-      - 🇯🇵 尼日利亚7
-      - 🇯🇵 尼日利亚8
-      - 🇯🇵 尼日利亚9
-      - 🇯🇵 尼日利亚10
-      - 🇯🇵 尼日利亚11
-      - 🇯🇵 尼日利亚12
-      - 🇯🇵 尼日利亚13
-      - 922
+
 
   - name: Proxies
     type: select
