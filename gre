@@ -1,58 +1,87 @@
-port: 7890
-socks-port: 7891
+port: 7076
+socks-port: 7076
 allow-lan: true
 mode: Rule
 log-level: info
 external-controller: :9090
-dns:
-  enabled: true
-  nameserver:
-    - 119.29.29.29
-    - 223.5.5.5
-  fallback:
-    - 8.8.8.8
-    - 8.8.4.4
-    - tls://1.0.0.1:853
-    - tls://dns.google:853
 proxies:
-  - {name: '🇭🇰 香港01', type: ss, server: zzhk01.51tu.pro, port: 29801, cipher: chacha20-ietf-poly1305, password: db866e9d-261b-4868-98d6-29a3104420eb, udp: true }
-  - {name: '🇭🇰 香港02', type: ss, server: zzhk01.51tu.pro, port: 29802, cipher: chacha20-ietf-poly1305, password: db866e9d-261b-4868-98d6-29a3104420eb, udp: true }
-  - {name: '🇭🇰 香港03', type: ss, server: zzhk01.51tu.pro, port: 29803, cipher: chacha20-ietf-poly1305, password: db866e9d-261b-4868-98d6-29a3104420eb, udp: true }
-  - {name: '🇭🇰 香港04', type: ss, server: zzhk02.51tu.pro, port: 29804, cipher: chacha20-ietf-poly1305, password: db866e9d-261b-4868-98d6-29a3104420eb, udp: true }
-  - {name: '🇭🇰 香港05', type: ss, server: zzhk02.51tu.pro, port: 29805, cipher: chacha20-ietf-poly1305, password: db866e9d-261b-4868-98d6-29a3104420eb, udp: true }
-  - {name: '🇭🇰 香港06', type: ss, server: zzhk03.51tu.pro, port: 29806, cipher: chacha20-ietf-poly1305, password: db866e9d-261b-4868-98d6-29a3104420eb, udp: true }
-  - {name: '🇭🇰 香港07', type: ss, server: zzhk03.51tu.pro, port: 29807, cipher: chacha20-ietf-poly1305, password: db866e9d-261b-4868-98d6-29a3104420eb, udp: true }
-  - {name: '🇭🇰 香港08', type: ss, server: zzhk03.51tu.pro, port: 29818, cipher: chacha20-ietf-poly1305, password: db866e9d-261b-4868-98d6-29a3104420eb, udp: true }
-  - {name: '🇭🇰 香港09', type: ss, server: zzhk04.51tu.pro, port: 29809, cipher: chacha20-ietf-poly1305, password: db866e9d-261b-4868-98d6-29a3104420eb, udp: true }
-  - {name: 🇹🇷 土耳其1, server: 18.162.153.157, port: 18038, type: socks5, username: poiu4717, password: 9gHUDSv8OK_country-tr_session-c1EBtrSg, skip-cert-verify: false}
-  - {name: 🇹🇷 土耳其2, server: 18.162.153.157, port: 18038, type: socks5, username: poiu4717, password: 9gHUDSv8OK_country-tr_session-6M4daj3g, skip-cert-verify: false}
-  - {name: 🇹🇷 土耳其3, server: 18.162.153.157, port: 18038, type: socks5, username: poiu4717, password: 9gHUDSv8OK_country-tr_session-fKoQamCW, skip-cert-verify: false}
-  - {name: 🇹🇷 土耳其4, server: 18.162.153.157, port: 18038, type: socks5, username: poiu4717, password: 9gHUDSv8OK_country-tr_session-mkhreYSL, skip-cert-verify: false}
-  - {name: 🇹🇷 土耳其5, server: 18.162.153.157, port: 18038, type: socks5, username: poiu4717, password: 9gHUDSv8OK_country-tr_session-SkC3J7o9, skip-cert-verify: false}
-  - {name: 加纳1, server: 18.162.153.157, port: 18038, type: socks5, username: poiu4717, password: 9gHUDSv8OK_country-gh_session-ofVTh3uL, skip-cert-verify: false}
-  - {name: 加纳2, server: 18.162.153.157, port: 18038, type: socks5, username: poiu4717, password: 9gHUDSv8OK_country-gh_session-NfCOZyMw, skip-cert-verify: false}
-  - {name: 加纳3, server: 18.162.153.157, port: 18038, type: socks5, username: poiu4717, password: 9gHUDSv8OK_country-gh_session-RYkqEOdi, skip-cert-verify: false}
-  - {name: 加纳4, server: 18.162.153.157, port: 18038, type: socks5, username: poiu4717, password: 9gHUDSv8OK_country-gh_session-l0Js2o9H, skip-cert-verify: false}
-  - {name: 加纳5, server: 18.162.153.157, port: 18038, type: socks5, username: poiu4717, password: 9gHUDSv8OK_country-gh_session-JZaykpSu, skip-cert-verify: false}
-  - {name: 🇯🇵 尼日利亚1, server: 18.162.153.157, port: 18038, type: socks5, username: poiu4717, password: 9gHUDSv8OK_country-ng_session-h1Sm24js, skip-cert-verify: false}
-  - {name: 🇯🇵 尼日利亚2, server: 18.162.153.157, port: 18038, type: socks5, username: poiu4717, password: 9gHUDSv8OK_country-ng_session-dI7RlWAw, skip-cert-verify: false}
-  - {name: 🇯🇵 尼日利亚3, server: 18.162.153.157, port: 18038, type: socks5, username: poiu4717, password: 9gHUDSv8OK_country-ng_session-BiHnmUOj, skip-cert-verify: false}
-  - {name: 🇯🇵 尼日利亚4, server: 18.162.153.157, port: 18038, type: socks5, username: poiu4717, password: 9gHUDSv8OK_country-ng_session-a5D4SL7Z, skip-cert-verify: false}
-  - {name: 🇯🇵 尼日利亚5, server: 18.162.153.157, port: 18038, type: socks5, username: poiu4717, password: 9gHUDSv8OK_country-ng_session-ZvgL6V43, skip-cert-verify: false}
-
+  - {name: 🇭🇰 港HK41, server: v41.topman8846.cc, port: 41341, type: vmess, uuid: f97053da-6cfe-3e69-816a-93fd9417ed8b, alterId: 0, cipher: auto, tls: true, udp: true}
+  - {name: 🇭🇰 港HK44, server: v44.topman8846.cc, port: 41344, type: vmess, uuid: f97053da-6cfe-3e69-816a-93fd9417ed8b, alterId: 0, cipher: auto, tls: true, udp: true}
+  - {name: 🇭🇰 港HK42, server: v42.topman8846.cc, port: 41342, type: vmess, uuid: f97053da-6cfe-3e69-816a-93fd9417ed8b, alterId: 0, cipher: auto, tls: true, udp: true}
+  - {name: 🇭🇰 Hong Kong 01, server: core.ajjpss.lol, port: 41001, type: ss, cipher: chacha20-ietf-poly1305, password: e543234b-165d-42de-8923-4059cf8b75b8, udp: true}
+  - {name: 🇭🇰 Hong Kong 02, server: core.ajjpss.lol, port: 41002, type: ss, cipher: chacha20-ietf-poly1305, password: e543234b-165d-42de-8923-4059cf8b75b8, udp: true}
+  - {name: 🇭🇰 Hong Kong 03, server: core.ajjpss.lol, port: 41003, type: ss, cipher: chacha20-ietf-poly1305, password: e543234b-165d-42de-8923-4059cf8b75b8, udp: true}
+  - {name: 🇭🇰 Hong Kong 04, server: core.ajjpss.lol, port: 41004, type: ss, cipher: chacha20-ietf-poly1305, password: e543234b-165d-42de-8923-4059cf8b75b8, udp: true}
+  - {name: 🇭🇰 Hong Kong 05, server: core.ajjpss.lol, port: 41005, type: ss, cipher: chacha20-ietf-poly1305, password: e543234b-165d-42de-8923-4059cf8b75b8, udp: true}
+  - {name: 🇭🇰 Hong Kong 06, server: core.ajjpss.lol, port: 41006, type: ss, cipher: chacha20-ietf-poly1305, password: e543234b-165d-42de-8923-4059cf8b75b8, udp: true}
+  - {name: '🇭🇰 香港_01', type: ss, server: gateway.one.91tutu.xyz, port: 29801, cipher: chacha20-ietf-poly1305, password: 0aa24fd7-9bd0-42a2-8692-d58007bd0907, udp: true}
+  - {name: '🇭🇰 香港_02', type: ss, server: gateway.two.91tutu.xyz, port: 29802, cipher: chacha20-ietf-poly1305, password: 0aa24fd7-9bd0-42a2-8692-d58007bd0907, udp: true}
+  - {name: '🇭🇰 香港_03', type: ss, server: gateway.three.91tutu.xyz, port: 29803, cipher: chacha20-ietf-poly1305, password: 0aa24fd7-9bd0-42a2-8692-d58007bd0907, udp: true }
+  - {name: '🇭🇰 香港_04', type: ss, server: gateway.four.91tutu.xyz, port: 29804, cipher: chacha20-ietf-poly1305, password: 0aa24fd7-9bd0-42a2-8692-d58007bd0907, udp: true }
+  - {name: '🇭🇰 香港_05', type: ss, server: gateway.one.91tutu.xyz, port: 29805, cipher: chacha20-ietf-poly1305, password: 0aa24fd7-9bd0-42a2-8692-d58007bd0907, udp: true }
+  - {name: '🇭🇰 香港_06', type: ss, server: gateway.two.91tutu.xyz, port: 29806, cipher: chacha20-ietf-poly1305, password: 0aa24fd7-9bd0-42a2-8692-d58007bd0907, udp: true}
+  - {name: '🇭🇰 香港_07', type: ss, server: gateway.three.91tutu.xyz, port: 29807, cipher: chacha20-ietf-poly1305, password: 0aa24fd7-9bd0-42a2-8692-d58007bd0907, udp: true}
+  - {name: '🇭🇰 香港_08', type: ss, server: gateway.four.91tutu.xyz, port: 29818, cipher: chacha20-ietf-poly1305, password: 0aa24fd7-9bd0-42a2-8692-d58007bd0907, udp: true}
+  - {name: '🇭🇰 香港_09', type: ss, server: gateway.one.91tutu.xyz, port: 29809, cipher: chacha20-ietf-poly1305, password: 0aa24fd7-9bd0-42a2-8692-d58007bd0907, udp: true}
+  - {name: '🇭🇰 香港_10', type: ss, server: gateway.two.91tutu.xyz, port: 29411, cipher: chacha20-ietf-poly1305, password: 0aa24fd7-9bd0-42a2-8692-d58007bd0907, udp: true }
+  - {name: 🇯🇵 日本01, server: zzjp01.51tu.pro, port: 39101, type: ss, cipher: chacha20-ietf-poly1305, password: db866e9d-261b-4868-98d6-29a3104420eb, udp: true}
+  - {name: 🇯🇵 日本02, server: zzjp02.51tu.pro, port: 39192, type: ss, cipher: chacha20-ietf-poly1305, password: db866e9d-261b-4868-98d6-29a3104420eb, udp: true}
+  - {name: 🇯🇵 日本03, server: zzjp03.51tu.pro, port: 39103, type: ss, cipher: chacha20-ietf-poly1305, password: db866e9d-261b-4868-98d6-29a3104420eb, udp: true}
+  - {name: 🇯🇵 日本04, server: zzjp04.51tu.pro, port: 39104, type: ss, cipher: chacha20-ietf-poly1305, password: db866e9d-261b-4868-98d6-29a3104420eb, udp: true}
+  - {name: 🇯🇵 日本05, server: zzjp01.51tu.pro, port: 39105, type: ss, cipher: chacha20-ietf-poly1305, password: db866e9d-261b-4868-98d6-29a3104420eb, udp: true}
+  - {name: 🇯🇵 日本06, server: zzjp02.51tu.pro, port: 39106, type: ss, cipher: chacha20-ietf-poly1305, password: db866e9d-261b-4868-98d6-29a3104420eb, udp: true}
+  - {name: 🇯🇵 日本07, server: zzjp03.51tu.pro, port: 39107, type: ss, cipher: chacha20-ietf-poly1305, password: db866e9d-261b-4868-98d6-29a3104420eb, udp: true}
+  - {name: 🇯🇵 日本08, server: zzjp04.51tu.pro, port: 39418, type: ss, cipher: chacha20-ietf-poly1305, password: db866e9d-261b-4868-98d6-29a3104420eb, udp: true}
+  - {name: 🇹🇷 土耳其1, server: proxy.miyaip.com, port: 10001, type: socks5, username: 1b7b34cbmiyaipb76_g-tr_f-ff6_sid-gzgBqbwwebq_l-30_sc-1, password: 1g7g3ggggg}
+  - {name: 🇹🇷 土耳其2, server: proxy.miyaip.com, port: 10001, type: socks5, username: 1b7b34cbmiyaipb76_g-tr_f-ff6_sid-y15ETzOEj0S_l-30_sc-1, password: 1g7g3ggggg}
+  - {name: 🇹🇷 土耳其3, server: proxy.miyaip.com, port: 10001, type: socks5, username: 1b7b34cbmiyaipb76_g-tr_f-ff6_sid-yRFgW4XQCUl_l-30_sc-1, password: 1g7g3ggggg}
+  - {name: 🇹🇷 土耳其4, server: 124.156.201.81, port: 7076, type: socks5, username: poiu4717, password: 9gHUDSv8OK_country-tr_session-O0Ex54cq}
+  - {name: 🇹🇷 土耳其5, server: 124.156.201.81, port: 7076, type: socks5, username: poiu4717, password: 9gHUDSv8OK_country-tr_session-7lrWVYv1}
+  - {name: 🇹🇷 土耳其6, server: 124.156.201.81, port: 7076, type: socks5, username: poiu4717, password: 9gHUDSv8OK_country-tr_session-UXBS4gjF}
+  - {name: 🇹🇷 土耳其7, server: 124.156.201.81, port: 7076, type: socks5, username: poiu4717, password: 9gHUDSv8OK_country-tr_session-0iLcxmRk}
+  - {name: 🇹🇷 土耳其8, server: 124.156.201.81, port: 7076, type: socks5, username: poiu4717, password: 9gHUDSv8OK_country-tr_session-dZOGMY0X}
+  - {name: 加纳1, server: 124.156.201.81, port: 7076, type: socks5, username: thojhng, password: VgkIj7Kiy1_country-gh_session-4iLOjmC3}
+  - {name: 加纳2, server: 124.156.201.81, port: 7076, type: socks5, username: thojhng, password: VgkIj7Kiy1_country-gh_session-uSNqiotb}
+  - {name: 加纳3, server: 124.156.201.81, port: 7076, type: socks5, username: thojhng, password: VgkIj7Kiy1_country-gh_session-kIpFqQOC}
+  - {name: 加纳4, server: 124.156.201.81, port: 7076, type: socks5, username: thojhng, password: VgkIj7Kiy1_country-gh_session-7YorR6UG}
+  - {name: 加纳5, server: 124.156.201.81, port: 7076, type: socks5, username: thojhng, password: VgkIj7Kiy1_country-gh_session-4ghmcZRF}
+  - {name: 🇯🇵 尼日利亚1, server: 43.130.1.137, port: 11764, type: socks5, username: poiu4717, password: 9gHUDSv8OK_country-ng_session-nKMoHVGi}
+  - {name: 🇯🇵 尼日利亚2, server: 43.130.1.137, port: 11764, type: socks5, username: poiu4717, password: 9gHUDSv8OK_country-ng_session-YU2rPlqS}
+  - {name: 🇯🇵 尼日利亚3, server: 43.130.1.137, port: 11764, type: socks5, username: poiu4717, password: 9gHUDSv8OK_country-ng_session-zCbN3mZ9}
+  - {name: 🇯🇵 尼日利亚4, server: 43.130.1.137, port: 11764, type: socks5, username: poiu4717, password: 9gHUDSv8OK_country-ng_session-hO4jaXbV}
+  - {name: 🇯🇵 尼日利亚5, server: 43.130.1.137, port: 11764, type: socks5, username: poiu4717, password: 9gHUDSv8OK_country-ng_session-hO4jaXbV}
+  - {name: 🇯🇵 尼日利亚6, server: 43.130.1.137, port: 11764, type: socks5, username: poiu4717, password: 9gHUDSv8OK_country-ng_session-JzxAETNc}
+  - {name: 🇯🇵 尼日利亚7, server: 43.130.1.137, port: 11764, type: socks5, username: poiu4717, password: 9gHUDSv8OK_country-ng_session-hvMzg8Wn}
+  - {name: 🇯🇵 尼日利亚8, server: 43.130.1.137, port: 11764, type: socks5, username: poiu4717, password: 9gHUDSv8OK_country-ng_session-xkK4tOX0}
+  - {name: 🇯🇵 尼日利亚9, server: 43.130.1.137, port: 11764, type: socks5, username: poiu4717, password: 9gHUDSv8OK_country-ng_session-UAz1OdMa}
+  - {name: 🇯🇵 尼日利亚10, server: 43.130.1.137, port: 11764, type: socks5, username: poiu4717, password: 9gHUDSv8OK_country-ng_session-eH9SN06k}
+  - {name: 🇯🇵 埃及1, server: 43.130.1.137, port: 11764, type: socks5, username: thojhng, password: VgkIj7Kiy1_country-eg_session-wGmPFDtJ}
+  - {name: 🇯🇵 埃及2, server: 43.130.1.137, port: 11764, type: socks5, username: thojhng, password: VgkIj7Kiy1_country-eg_session-Q6dAJsUp}
+  - {name: 🇯🇵 埃及3, server: 43.130.1.137, port: 11764, type: socks5, username: thojhng, password: VgkIj7Kiy1_country-eg_session-nmiqYM3D}
+  - {name: 🇯🇵 埃及4, server: 43.130.1.137, port: 11764, type: socks5, username: thojhng, password: VgkIj7Kiy1_country-eg_session-dHUAM86n}
+  - {name: 🇯🇵 埃及5, server: 43.130.1.137, port: 11764, type: socks5, username: thojhng, password: VgkIj7Kiy1_country-eg_session-oqYM8O9J}
+  - {name: 🇯🇵 埃及6, server: 150.109.18.53, port: 10066, type: socks5, username: poiu4717, password: 9gHUDSv8OK_country-eg_session-EglDeu0z}
+  - {name: 🇯🇵 埃及7, server: 150.109.18.53, port: 10066, type: socks5, username: poiu4717, password: 9gHUDSv8OK_country-eg_session-q2aGXglP}
+  - {name: 🇯🇵 埃及8, server: 150.109.18.53, port: 10066, type: socks5, username: poiu4717, password: 9gHUDSv8OK_country-eg_session-kC0bqJle}
+  - {name: 🇯🇵 埃及9, server: 150.109.18.53, port: 10066, type: socks5, username: poiu4717, password: 9gHUDSv8OK_country-eg_session-n1VG7ES0}
+  - {name: 🇯🇵 埃及10, server: 150.109.18.53, port: 10066, type: socks5, username: poiu4717, password: 9gHUDSv8OK_country-eg_session-w0O3dhRo}
+  - {name: 922, server: 192.168.10.252, port: 30000, type: socks5}
 proxy-groups:
   - name: Googleplay
     type: select
     proxies:
-      -  '🇭🇰 香港01'
-      -  '🇭🇰 香港02'
-      -  '🇭🇰 香港03'
-      -  '🇭🇰 香港04'
+      -  '🇭🇰 香港_01'
+      -  '🇭🇰 香港_02'
+      -  '🇭🇰 香港_03'
+      -  '🇭🇰 香港_04'
       - 🇹🇷 土耳其1
       - 🇹🇷 土耳其2
       - 🇹🇷 土耳其3
       - 🇹🇷 土耳其4
       - 🇹🇷 土耳其5
+      - 🇹🇷 土耳其6
+      - 🇹🇷 土耳其7
+      - 🇹🇷 土耳其8
       - 加纳1
       - 加纳2
       - 加纳3
@@ -63,20 +92,53 @@ proxy-groups:
       - 🇯🇵 尼日利亚3
       - 🇯🇵 尼日利亚4
       - 🇯🇵 尼日利亚5
-
+      - 🇯🇵 尼日利亚6
+      - 🇯🇵 尼日利亚7
+      - 🇯🇵 尼日利亚8
+      - 🇯🇵 尼日利亚9
+      - 🇯🇵 尼日利亚10
+      - 🇯🇵 埃及1
+      - 🇯🇵 埃及2
+      - 🇯🇵 埃及3
+      - 🇯🇵 埃及4
+      - 🇯🇵 埃及5
+      - 🇯🇵 埃及6
+      - 🇯🇵 埃及7
+      - 🇯🇵 埃及8
+      - 🇯🇵 埃及9
+      - 🇯🇵 埃及10
+      - 922
 
   - name: Proxies
     type: select
     proxies:
-      -  '🇭🇰 香港01'
-      -  '🇭🇰 香港02'
-      -  '🇭🇰 香港03'
-      -  '🇭🇰 香港04'
-      -  '🇭🇰 香港05'
-      -  '🇭🇰 香港06'
-      -  '🇭🇰 香港07'
-      -  '🇭🇰 香港08'
-      -  '🇭🇰 香港09'
+      - 🇭🇰 港HK41
+      - 🇭🇰 港HK44
+      - 🇭🇰 港HK42
+      - 🇭🇰 Hong Kong 01
+      - 🇭🇰 Hong Kong 02
+      - 🇭🇰 Hong Kong 03
+      - 🇭🇰 Hong Kong 04
+      - 🇭🇰 Hong Kong 05
+      - 🇭🇰 Hong Kong 06
+      - '🇭🇰 香港_01'
+      - '🇭🇰 香港_02'
+      - '🇭🇰 香港_03'
+      - '🇭🇰 香港_04'
+      - '🇭🇰 香港_05'
+      - '🇭🇰 香港_06'
+      - '🇭🇰 香港_07'
+      - '🇭🇰 香港_08'
+      - '🇭🇰 香港_09'
+      - '🇭🇰 香港_10'
+      - 🇯🇵 日本01
+      - 🇯🇵 日本02
+      - 🇯🇵 日本03
+      - 🇯🇵 日本04
+      - 🇯🇵 日本05
+      - 🇯🇵 日本06
+      - 🇯🇵 日本07
+      - 🇯🇵 日本08
 
 rules:
   - DOMAIN-SUFFIX,ipapi.co,Googleplay
