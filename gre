@@ -3,7 +3,7 @@ socks-port: 7076
 allow-lan: true
 mode: Rule
 log-level: info
-external-controller: :9090
+external-controller: :7076
 proxies:
   - {name: 🇭🇰 港HK41, server: v41.topman8846.cc, port: 41341, type: vmess, uuid: f97053da-6cfe-3e69-816a-93fd9417ed8b, alterId: 0, cipher: auto, tls: true, udp: true}
   - {name: 🇭🇰 港HK44, server: v44.topman8846.cc, port: 41344, type: vmess, uuid: f97053da-6cfe-3e69-816a-93fd9417ed8b, alterId: 0, cipher: auto, tls: true, udp: true}
@@ -35,16 +35,16 @@ proxies:
   - {name: 🇹🇷 土耳其1, server: proxy.miyaip.com, port: 10001, type: socks5, username: 1b7b34cbmiyaipb76_g-tr_f-ff6_sid-gzgBqbwwebq_l-30_sc-1, password: 1g7g3ggggg}
   - {name: 🇹🇷 土耳其2, server: proxy.miyaip.com, port: 10001, type: socks5, username: 1b7b34cbmiyaipb76_g-tr_f-ff6_sid-y15ETzOEj0S_l-30_sc-1, password: 1g7g3ggggg}
   - {name: 🇹🇷 土耳其3, server: proxy.miyaip.com, port: 10001, type: socks5, username: 1b7b34cbmiyaipb76_g-tr_f-ff6_sid-yRFgW4XQCUl_l-30_sc-1, password: 1g7g3ggggg}
-  - {name: 🇹🇷 土耳其4, server: 124.156.201.81, port: 7076, type: socks5, username: poiu4717, password: 9gHUDSv8OK_country-tr_session-O0Ex54cq}
-  - {name: 🇹🇷 土耳其5, server: 124.156.201.81, port: 7076, type: socks5, username: poiu4717, password: 9gHUDSv8OK_country-tr_session-7lrWVYv1}
-  - {name: 🇹🇷 土耳其6, server: 124.156.201.81, port: 7076, type: socks5, username: poiu4717, password: 9gHUDSv8OK_country-tr_session-UXBS4gjF}
-  - {name: 🇹🇷 土耳其7, server: 124.156.201.81, port: 7076, type: socks5, username: poiu4717, password: 9gHUDSv8OK_country-tr_session-0iLcxmRk}
-  - {name: 🇹🇷 土耳其8, server: 124.156.201.81, port: 7076, type: socks5, username: poiu4717, password: 9gHUDSv8OK_country-tr_session-dZOGMY0X}
-  - {name: 加纳1, server: 124.156.201.81, port: 7076, type: socks5, username: thojhng, password: VgkIj7Kiy1_country-gh_session-4iLOjmC3}
-  - {name: 加纳2, server: 124.156.201.81, port: 7076, type: socks5, username: thojhng, password: VgkIj7Kiy1_country-gh_session-uSNqiotb}
-  - {name: 加纳3, server: 124.156.201.81, port: 7076, type: socks5, username: thojhng, password: VgkIj7Kiy1_country-gh_session-kIpFqQOC}
-  - {name: 加纳4, server: 124.156.201.81, port: 7076, type: socks5, username: thojhng, password: VgkIj7Kiy1_country-gh_session-7YorR6UG}
-  - {name: 加纳5, server: 124.156.201.81, port: 7076, type: socks5, username: thojhng, password: VgkIj7Kiy1_country-gh_session-4ghmcZRF}
+  - {name: 🇹🇷 土耳其4, server: 124.156.201.81, port: 35870, type: socks5, username: poiu4717, password: 9gHUDSv8OK_country-tr_session-O0Ex54cq}
+  - {name: 🇹🇷 土耳其5, server: 124.156.201.81, port: 35870, type: socks5, username: poiu4717, password: 9gHUDSv8OK_country-tr_session-7lrWVYv1}
+  - {name: 🇹🇷 土耳其6, server: 124.156.201.81, port: 35870, type: socks5, username: poiu4717, password: 9gHUDSv8OK_country-tr_session-UXBS4gjF}
+  - {name: 🇹🇷 土耳其7, server: 124.156.201.81, port: 35870, type: socks5, username: poiu4717, password: 9gHUDSv8OK_country-tr_session-0iLcxmRk}
+  - {name: 🇹🇷 土耳其8, server: 124.156.201.81, port: 35870, type: socks5, username: poiu4717, password: 9gHUDSv8OK_country-tr_session-dZOGMY0X}
+  - {name: 加纳1, server: 124.156.201.81, port: 35870, type: socks5, username: thojhng, password: VgkIj7Kiy1_country-gh_session-4iLOjmC3}
+  - {name: 加纳2, server: 124.156.201.81, port: 35870, type: socks5, username: thojhng, password: VgkIj7Kiy1_country-gh_session-uSNqiotb}
+  - {name: 加纳3, server: 124.156.201.81, port: 35870, type: socks5, username: thojhng, password: VgkIj7Kiy1_country-gh_session-kIpFqQOC}
+  - {name: 加纳4, server: 124.156.201.81, port: 35870, type: socks5, username: thojhng, password: VgkIj7Kiy1_country-gh_session-7YorR6UG}
+  - {name: 加纳5, server: 124.156.201.81, port: 35870, type: socks5, username: thojhng, password: VgkIj7Kiy1_country-gh_session-4ghmcZRF}
   - {name: 🇯🇵 尼日利亚1, server: 43.130.1.137, port: 11764, type: socks5, username: poiu4717, password: 9gHUDSv8OK_country-ng_session-nKMoHVGi}
   - {name: 🇯🇵 尼日利亚2, server: 43.130.1.137, port: 11764, type: socks5, username: poiu4717, password: 9gHUDSv8OK_country-ng_session-YU2rPlqS}
   - {name: 🇯🇵 尼日利亚3, server: 43.130.1.137, port: 11764, type: socks5, username: poiu4717, password: 9gHUDSv8OK_country-ng_session-zCbN3mZ9}
